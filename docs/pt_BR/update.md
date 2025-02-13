@@ -50,7 +50,7 @@ O conteúdo descrito neste documento é baseado na versão mais recente do APatc
 Versões mais antigas não são mais suportadas, e há risco de comprometer a SuperKey.
 :::
 
-Em algumas atualizações importantes, as versões mais recentes do KernelPatch podem não ser compatíveis com versões mais antigas, **causando a perda do root** após a atualização. Caso essa incompatibilidade ocorra, ela será mencionada especificamente nas notas de lançamento. Se isso acontecer, recomendamos que você refaça as etapas de instalação usando a `boot.img` stock.
+Em algumas atualizações importantes, as versões mais recentes do KernelPatch podem não ser compatíveis com versões mais antigas, **causando a perda do root** após a atualização. Caso essa incompatibilidade ocorra, ela será mencionada especificamente nas notas de lançamento. Se isso acontecer, recomendamos que você refaça as etapas de instalação usando o `boot.img` stock.
 
 **Há um número muito pequeno de casos em que a troca de slot OTA não funciona.** A amostra é muito pequena para determinarmos exatamente qual é o problema. Se isso acontecer, reinstale o app manualmente. Além disso, se desejar, você pode relatar o problema e anexar os logs na página [Issues](https://github.com/bmax121/APatch/issues/new/choose) do GitHub.
 
