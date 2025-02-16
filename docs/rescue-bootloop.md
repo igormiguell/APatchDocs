@@ -10,10 +10,10 @@ This can only help you **when the device cannot boot due to malicious or conflic
 
 - Pressing Volume down button
 
-After **holding down the power button until the screen turns on, continuously press and release it until the first screen lights up**. This way, the integrated Safe Mode of APatch will be activated, and all modules will be disabled.
+After **holding down the power button until the screen turns on, continuously press and release it until the first screen lights up**. This way, the built-in Safe Mode of APatch will be activated, and all modules will be disabled.
 
 :::info
-APatch has a wide range of detection for volume buttons. Even if the `post-fs` phase has been executed, APatch will revert any changes made to it if it detects a signal from Safe Mode.
+APatch has a wide range of detection for volume buttons. Even if the `post-fs` phase has been executed, APatch will revert any changes made during it if a signal from Safe Mode is detected.
 
 In other words, this check occurs before `sys.boot_completed=1`.
 :::
