@@ -17,7 +17,7 @@ You can update directly in the app.
 ## OTA update with APatch retention
 
 ::: tip
-OTA update with root retention in APatch is consistent with Magisk.
+Keep the OTA root update of APatch consistent with Magisk.
 :::
 
 1. Download and start installing the OTA update through your ROM's software
@@ -27,13 +27,13 @@ OTA update with root retention in APatch is consistent with Magisk.
 3. Select `Install to inactive slot (After OTA)`
 
 ::: warning
-The OTA update functionality with root saving in APatch is currently not very stable and issues may occur. If an issue occurs [go to the APatch repository on GitHub to submit an issue](https://github.com/bmax121/APatch/issues/new/choose).
+The OTA update functionality is currently unstable and may cause issues. If an issue occurs, [go to the APatch repository on GitHub to submit an issue](https://github.com/bmax121/APatch/issues/new/choose).
 :::
 
 ::: info PAY ATTENTION
 For MIUI/Xiaomi HyperOS users, pay attention to the following points:
 
-Different from Magisk/KernelSU, APatch currently doesn't automatically back up the stock `boot.img` when patching it. If you haven't manually restored the stock `boot.img` before a system update, the check will fail, and you will be forced to use a full ROM to complete the update process.
+Different from Magisk/KernelSU, APatch currently won't automatically back up the stock `boot.img` when patching it. If you haven't manually restored the stock `boot.img` before a system update, the check will fail, and you will be forced to use a full ROM to complete the update process.
 
 If you're using MIUI/Xiaomi HyperOS (especially Dev Edition), we recommend that restoring stock `boot.img` manually before system update.
 :::
