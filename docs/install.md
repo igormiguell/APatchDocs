@@ -142,6 +142,10 @@ To pack and generate the image. The generated `new-boot.img` is the patched imag
 You can also try [online patching](https://kernelpatch-on-web.pages.dev/).
 :::
 
+::: tip
+You can type the `--help` parameter, that is, `kptools --help`, to get all available parameters.
+:::
+
 ### KP commands and comments:
 
 ::: info
