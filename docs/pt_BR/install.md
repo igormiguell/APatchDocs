@@ -138,8 +138,12 @@ magiskboot repack boot.img
 
 Empacote e gere a imagem. O `new-boot.img` gerado é a imagem corrigida.
 
-::: info
+::: info INFORMAÇÕES
 Você também pode tentar o [patch online](https://kernelpatch-on-web.pages.dev/).
+:::
+
+::: tip DICA
+Você pode digitar o parâmetro `--help`, ou seja, `kptools --help`, para obter todos os parâmetros disponíveis.
 :::
 
 # Comandos e comentários do KP
