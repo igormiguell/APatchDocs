@@ -50,7 +50,7 @@ Additionally, APatch directly uses `magiskpolicy` to provide additional support 
 
 ## WebUI of APM/KPM
 
-The source code of APatch was derived and modified from KernelSU, and APatch introduced the WebUI feature in version [10568](https://github.com/bmax121/APatch/releases/tag/10568), after KernelSU did the same.
+The APatch source code has been derived and modified from KernelSU, and APatch introduced the WebUI feature in version [10568](https://github.com/bmax121/APatch/releases/tag/10568), after KernelSU did the same.
 
 APatch WebUI implementation and requirements is completely same as KernelSU, WebUI designed for KernelSU modules can run perfectly in APatch.
 
@@ -76,7 +76,7 @@ Here are two solutions for running LSPosed on APatch:
 2. If you only need to use LSPosed without other Zygisk features, you can try [Zloader](https://github.com/Mufanc/z-loader) [for LSPosed](https://t.me/mufanc_chan/28).
 
 ::: warning
-Zloader is **NOT** compatible with any Zygisk implementation, and you cannot use any APMs that depends on Zygisk. Please disable or uninstall any Zygisk implementation before using Zloader.
+Zloader is **NOT** compatible with any Zygisk implementation, and you cannot use any APMs that depend on Zygisk either. Please disable or uninstall any Zygisk implementation before using Zloader.
 :::
 
 ::: danger
@@ -90,7 +90,7 @@ We no longer recommends using this method. Please consider using Zygisk instead.
 We cannot support Shamiko due to its proprietary.
 
 ::: danger
-**Any issues caused by using Shamiko won't be supported by APatch developers. Use at your own risk.**
+**Any issues caused by using Shamiko will not be supported by APatch developers. Use at your own risk.**
 :::
 
 ## Zygisk support? {#zygisk-support}
@@ -99,9 +99,9 @@ Same as KernelSU, APatch doesn't have built-in Zygisk support.
 
 Thanks to the community's efforts, several APMs or Magisk modules are now available that are compatible with APatch and allow you to add support for Zygisk. Below are some APMs that provide Zygisk support for APatch:
 
-- [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext): The first APM to provide a Zygisk environment for KernelSU, supporting the most comprehensive functions. It's a full implementation of Zygisk API, including additional features, both based on Zygisk and outside of it. Version `0.9.1.1` and all previous versions are open-source, while versions after this became proprietary. This APM supports APatch starting from version `1.0.3`.
+- [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext): The first APM to provide a Zygisk environment for KernelSU, supporting the most comprehensive functions. It's a full implementation of Zygisk API, including additional features, both based on Zygisk and outside of it. Version `0.9.1.1` and all previous versions are open-source, while versions after this became proprietary. This APM initially supports APatch at version `1.0.3`.
 
-- [Zygisk_mod](https://github.com/Admirepowered/Zygisk_mod): Before ZygiskNext officially supports APatch, this APM was set to provides Zygisk environment for APatch. With ZygiskNext now offering official support, Zygisk_mod has been discontinued, but it is still available.
+- [Zygisk_mod](https://github.com/Admirepowered/Zygisk_mod): Before ZygiskNext officially supports APatch, this APM was set to provide a Zygisk environment for APatch. With ZygiskNext now offering official support, Zygisk_mod has been discontinued, but it's still available.
 
 - [ReZygisk](https://github.com/PerformanC/ReZygisk): A free Zygisk implementation appeared after ZygiskNext become proprietary. Still in early development, this APM doesn't support some features present in ZygiskNext.
 
