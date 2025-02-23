@@ -212,7 +212,7 @@ fastboot reboot
 
 ### Directly flashing
 
-The latest version of APatch Manager supports direct flashing via third-party Recovery, such as TWRP.
+The latest version of APatch Manager supports directly flashing via third-party Recovery, such as TWRP.
 
 ::: warning
 Directly flashing was first introduced in version `10888`, and earlier versions of APatch Manager **DO NOT** support this method.
