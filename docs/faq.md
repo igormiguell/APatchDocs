@@ -40,7 +40,7 @@ You can install only KernelPatch, but this doesn't allow you to use APM.
 
 ## What is SuperKey?
 
-KernelPatch adds a new system call (syscall) to provide all resources for apps and programs in userspace, and this system call is known as **SuperCall**. When an app/program tries to invoke **SuperCall**, a credential known as **SuperKey** must be provided. The invocation of the **SuperCall** will only succeed when the **SuperKey** is correct. If the SuperKey is incorrect, the caller will not be affected.
+KernelPatch adds a new system call (syscall) to provide all resources for apps and programs in userspace, and this syscall is known as **SuperCall**. When an app/program tries to invoke **SuperCall**, a credential known as **SuperKey** must be provided. The invocation of the **SuperCall** will only succeed when the **SuperKey** is correct. If the SuperKey is incorrect, the caller won't be affected.
 
 ## How is SELinux processed?
 
@@ -90,7 +90,7 @@ We no longer recommends using this method. Please consider using Zygisk instead.
 We cannot support Shamiko due to its proprietary.
 
 ::: danger
-**Any issues caused by using Shamiko will not be supported by APatch developers. Use at your own risk.**
+**Any issues caused by using Shamiko won't be supported by APatch developers. Use at your own risk.**
 :::
 
 ## Zygisk support? {#zygisk-support}
